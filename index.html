@@ -1,55 +1,337 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>懒家伙的主页 </title>
-    <link rel="stylesheet" href="css/yangshi.css">
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="noIE" lang="en-US">
+<!--<![endif]-->
+	<head>
+		<title>Flusk</title>
 
-    <link rel="stylesheet" href="../">
-</head>
-<body>
-   <!--元素选择器-->
-   <h1>我是元素选择器示例</h1>
+		<!-- meta -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+		
+		<!-- google fonts -->
+		<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans'>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold"/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+Sans:regular,italic,bold,bolditalic"/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nixie+One:regular,italic,bold,bolditalic"/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+SC:regular,italic,bold,bolditalic"/>
+		
+		<!-- css -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/style.css" media="screen"/>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.js"></script>
+			<script src="assets/js/respond.js"></script>
+		<![endif]-->
+
+		<!--[if IE 8]>
+	    	<script src="assets/js/selectivizr.js"></script>
+	    <![endif]-->
+	</head>
+	
+	<body>
+		<div id="drawer-right">
+			<div class="cross text-right">
+				<a class="toggleDrawer" href="#"><i class="fa fa-times-circle fa-2x"></i></a>
+			</div>
+			<h2>Navigate</h2>
+			<nav>
+				<ul class="nav nav-pills nav-stacked">
+					<li>
+						<a href="#wrapper"><i class="fa fa-home"></i> 大头贴</a>
+					</li>
+					<li>
+						<a href="#portfolio"><i class="fa fa-bookmark"></i> Portfolio</a>
+					</li>
+					<li>
+						<a href="#services"><i class="fa fa-tasks"></i> Services</a>
+					</li>
+					<li>
+						<a href="#blog"><i class="fa fa-wordpress"></i> Blog</a>
+					</li>
+					<li>
+						<a href="#parallax"><i class="fa fa-heart"></i> Parallax</a>
+					</li>
+					<li>
+						<a href="#testimonials"><i class="fa fa-thumbs-up"></i> Testimonials</a>
+					</li>
+					<li>
+						<a href="#contact"><i class="fa fa-phone-square"></i> Contact</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="social">
+				<h2>Stay Connected</h2>
+				<ul>
+					<li><a href=""><i class="fa fa-facebook-square fa-3x"></i></a></li>
+					<li><a href=""><i class="fa fa-twitter-square fa-3x"></i></a></li>
+					<li><a href=""><i class="fa fa-tumblr-square fa-3x"></i></a></li>
+					<li><a href=""><i class="fa fa-google-plus-square fa-3x"></i></a></li>
+				</ul>
+			</div>
+		</div><!-- #drawer-right -->
+
+		<div id="wrapper">
+			
+			<div id="header" class="content-block header-wrapper">
+				<div class="header-wrapper-inner">
+					<section class="top clearfix">
+						<div class="pull-left">
+							<h1><a class="logo" href="index.html">男神的主页</a></h1>
+						</div>
+						<div class="pull-right">
+							<a class="toggleDrawer" href="#"><i class="fa fa-bars fa-2x"></i></a>
+						</div>
+					</section>
+					<section class="center">
+						<div class="slogan">
+							同学 同事&amp; 朋友
+						</div>
+						<div class="secondary-slogan">
+							我的愿望是世界和平
+						</div>
+					</section>
+					<section class="bottom">
+						<a id="scrollToContent" href="#">
+							<img src="assets/images/arrow_down.png">
+						</a>
+					</section>
+				</div>
+			</div><!-- header -->
+
+			
+			<div class="content-block" id="portfolio">
+				<div class="container">
+					<header class="block-heading cleafix">
+						<a href="#" class="btn btn-o btn-lg pull-right">View All</a>
+						<h1>简介</h1>
+						<p>以下是我成长的经历</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-sm-4">
+									<a href="#" class="recent-work" style="background-image:url(assets/images/ziji.jpg)">
+										<span class="btn btn-o-white">点一下有惊喜</span>
+									</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/ziji1.jpg)">
+									<span class="btn btn-o-white">点一下有惊喜</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/ziji2.jpg)">
+									<span class="btn btn-o-white">点一下有惊喜</span>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/zj3.jpg)">
+									<span class="btn btn-o-white">点一下有惊喜</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/zj4.jpg)">
+									<span class="btn btn-o-white">点一下有惊喜</span>
+								</a>
+							</div>
+							<div class="col-sm-4">
+								<a href="#" class="recent-work" style="background-image:url(assets/images/ziji5.jpg)">
+									<span class="btn btn-o-white">点一下有惊喜</span>
+								</a>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div><!-- #portfolio -->
+
+			<div class="content-block parallax" id="services">
+				<div class="container text-center">
+					<header class="block-heading cleafix">
+					
+							<h1  > 我的生活</h1>	 
+						    <p style="font-size:25px" >我的充实的一周</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="service">
+									<i class="fa fa-send-o"></i>
+									<h2>周一到周四 </h2>
+									<p>每天都是早上7点钟闹钟准时想起，第一件事情在路得分区群里发圣经，现在看的人越来越多，是我继续发圣经的动力。
+										然后就是去上班了，早8晚5：30。忙碌的几天就过去了。另外，现在周一晚上
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service">
+									<i class="fa fa-heart-o"></i>
+									<h2>周五</h2>
+									<p>小组聚会的日子，下班直接奔上地铁，到浑南6点多，然后吃饭有时候能碰到花姐和老大，到教会一般都7点，准时开始
+										我们的小组聚会的日子，很幸福，上周五我们还一起吃烤串来的。然后回到大东一般都11点多了，直接累趴。
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service">
+									<i class="fa fa-camera-retro"></i>
+									<h2>周六和周日</h2>
+									<p>周六有时候回加班、出去玩，还有时候在家里弄弄饭收拾屋子，练习我的吉他，周日早上又要来到浑南，因为周日会
+										去教会服侍，我一般都是上午第二场，有时间的人可以找我,欢迎每一个人来到浑河堡教会！
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div><!-- #services -->
 
 
-   微软出的软件  
-   
-   
-       <!--======
-     id 选择器
-     id 选择器可以为标有特定 id 的 HTML 元素指定特定的样式。
-     id 选择器以 "#" 来定义。
-     下面的两个 id 选择器，第一个可以定义元素的颜色为红色，第二个定义元素的颜色为绿色：
-     注意：id 属性只能在每个 HTML 文档中出现一次.
-     ========-->
-       <div id="red">
-           我是id选择器示例 我是红色
-       </div>
-   
-       <!--======== class 选择器=========-->
+			<div class="content-block" id="blog">
+				<div class="container">
+					<header class="block-heading cleafix">
+						<a href="#" class="btn btn-o btn-lg pull-right">View All</a>
+						<h1>我的朋友</h1>
+						<p>
+						Believe that good things will happen！</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-sm-4 blog-post">
+								<img src="assets/images/py-1000x600.jpg">
+								<a href="#"><h2>90后烧烤</h2></a>
+								<div class="date">2017</div>
+								<p>一次90后的聚餐，没有带80后的大哥大姐们，我们果然有代购，他们太能说了，尤其超姐，带超姐出去玩太累，她累我们也累，以后尽量出去不带超姐，
+									这次聚会很开心，我组织的聚餐，没毛病！
+								</p>
+								<a href="">Read More</a>
+							</div>
+							<div class="col-sm-4 blog-post">
+									<img src="assets/images/yongzhuang.jpg">
+								<a href="#"><h2>热高泳装的我们</h2></a>
+								<div class="date">2015年7月11日</div>
+								<p>那一天我们起来的很早，为了玩一次游戏我们排了很长时间，但是没有遗憾，都是开心。怎么一个爽字了得。后来之后我们有去吃饭，
+									一路欢声笑语，时间过的很快，马上都要三年了，可是当时的欢声笑语，好像就在眼前，认识你们真好，幸福的不要不要的了。
+								</p>
+								<a href="">Read More</a>
+							</div>
+							<div class="col-sm-4 blog-post">
+								<img src="assets/images/xiaozu.jpg">
+								<a href="#"><h2>小组中的我们</h2></a>
+								<div class="date">2016年8月26日</div>
+								<p>这是在超姐家，小组聚会的我们，真的每次聚会都应该拍点照片，即使有些麻烦，大姐们拍上照片根本停不下来，其实我们玩的都很开心，拍了很久，
+									在一起就好，我们在一起就是快乐，不在乎地点，不在乎干什么，就是要在一起，幸福的大家庭，我们彼此帮助，彼此扶持，一路走来，还好我们生活
+									在有手机的时代。
+								</p>
+								<a href="">Read More</a>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div><!-- #blog -->
 
-    <h1 class="center">
-        我是类选择器示例
-    </h1>
 
-    <h1 class="title"></h1>
+			<div class="content-block parallax" id="parallax">
+				<div class="container text-center">
+					<h1>In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis, vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget ultricies sit amet, hendrerit.</h1>
+					<a href="" class="btn btn-o-white btn-lg">Get a free quote</a>
+				</div>
+			</div><!-- #parallax -->
 
-    <!--属性选择器-->
-    <a href="http://www.w3school.com.cn">w3school.com.cn 我是属性选择器示例</a>
-    <a href="http://www.disney.com" target="_blank">disney.com 我是属性选择器示例</a>
-    <a href="http://www.wikipedia.org" target="_top">wikipedia.org 我是属性选择器示例</a>
+			<div class="content-block" id="testimonials">
+				<div class="container">
+					<header class="block-heading cleafix">
+						<h1>我的家人</h1>
+						<p>Some happy customers have to say.</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="testimonial">
+									<img src="assets/images/naina2333.jpg">
+									<p>奶奶家里</p>
+									<strong>某个黄昏</strong><br/>
+									<span>在关公台，我生长的地方</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="testimonial">
+									<img src="assets/images/434434.jpg">
+									<p>姐姐结婚</p>
+									<strong>某天早晨</strong><br/>
+									<span>在喀左，我们一起去过的地方</span>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="testimonial">
+									<img src="assets/images/didimeimei.jpg">
+									<p>新年在姥姥家里</p>
+									<strong>某个中午</strong><br/>
+									<span>在开原火车站，我们一起玩耍的地方</span>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div><!-- /#testimonials -->
+
+
+			<div class="content-block" id="contact">
+				<div class="container text-center">
+					<header class="block-heading cleafix">
+						<h1>这就是我，不一样的烟火</h1>
+						<p>如果你喜欢我，请留下你的联系方式</p>
+					</header>
+					<section class="block-body">
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<form class="" role="form">
+									<div class="form-group">
+								    	<input type="email" class="form-control form-control-white" id="subject" placeholder="Your Name" required>
+								  	</div>
+								    <div class="form-group">
+								    	<input type="email" class="form-control form-control-white" id="exampleInputEmail2" placeholder="Enter email" required>
+								    </div>
+								    <div class="form-group">
+								    	<textarea class="form-control form-control-white" placeholder="Write Something" required></textarea>
+								    </div>
+								  <input type="submit" class="btn btn-o-white" value="Say Hello">
+								</form>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div><!-- #contact -->
+
+			<div class="content-block" id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-6">Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></div>
+						<div class="col-xs-6 text-right"></div>
+					</div>
+				</div>
+			</div><!-- #footer -->
+
+
+		</div><!--/#wrapper-->
 
 
 
 
-            </div>
+		<script src="assets/js/jquery-2.1.3.min.js"></script>
+		<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/jquery.actual.min.js"></script>
+		<script src="assets/js/jquery.scrollTo.min.js"></script>
+		<script src="assets/js/script.js"></script>
 
-
-
-
-
-
-</body>
+	</body>
 </html>
